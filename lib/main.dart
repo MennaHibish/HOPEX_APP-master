@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: NavBar(),
+      home:
+      NavBar(),
+      //VerifiScreen(),
+     // Register(),
       //const SplashScreen(),
     );
   }

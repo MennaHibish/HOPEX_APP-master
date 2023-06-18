@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hopex/views/widgets/chart.dart';
 import 'package:hopex/views/widgets/navbar.dart';
 
-import '../../d-chart.dart';
+import '../widgets/d-chart.dart';
 import '../widgets/piechart.dart';
 import '../widgets/scroll.dart';
 
@@ -121,7 +121,7 @@ void main() {
           ),
         ],
       ),
-      NavBar(),
+     // NavBar(),
     ),
   ));
 }
